@@ -1,6 +1,8 @@
 # Edge-Detection
 This repository contains the code for Edge Detection in Images using CUDA. 
 
+To find the edges we apply the Sobel Operator. The Sobel Operator calculates the gradient magnitude and direction at each pixel using a two 3x3 matrices, one for detecting vertical edges and the other for horizontal edges. By applying the Sobel operator, the image is transformed into a representation where edges are emphasized, and other areas are suppressed. 
+
 To use the code run the following commands:
 ```sh
 $ git clone https://github.com/saivojjala/Edge-Detection.git
